@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+               @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.line{
+    background-color: blue;
+    color: #ffffff;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+.list li{
+    display: inline-block;
+    padding-left: 60px;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+.head{
+    margin-right: auto;
+    font-size: 45px;
+    font-weight: bolder;
+    color: blue;
+    font-family: 'Coiny', cursive,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: large;
+}
+.bgimage{
+    background-image: url('https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?cs=srgb&dl=pexels-jason-villanueva-851555.jpg&fm=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 700px;
+}
+.bgimage{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.item1{
+    font-size:30px;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 20px;
+}
+.item2{
+    font-size:75px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 20px;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    padding:5px 15px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+        </style>
+    </head>
+    <body class="bdy">
+        <nav class="line">
+            <span>Free shipping on subscription & domestic order over 35$!</span>
+        </nav>
+        <header class="main">
+            <span class="head">JoeCoffee</span>
+            <ul class="list">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">The Workshop</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Wholesale</a></li>
+            </ul>
+        </header>
+        <div class="bgimage">
+            <ul class="list2">
+                <li class="item1">FREE DELIVERY ON ORDER OVER 15$</li>
+                <li class="item2">Spiced Cookie <br> Latte</li>
+                <li class="item3"><button>ORDER DELIVERY</button></li>
+            </ul>
+        </div>
+    </body>
+</html>
